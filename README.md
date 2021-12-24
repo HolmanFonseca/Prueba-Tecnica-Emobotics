@@ -10,7 +10,7 @@ La secuencia de preguntas es la misma para todos los usuarios y debe almacenarse
 Las funciones que implementaria:
  -Una funcion para pedir los datos al usuario.
  -Una funcion donde tenga todas las respuestas y sus respectivas condiciones.
- - y una ultima funcion para almacenar los datos en la base de datos.
+ -Una ultima funcion para almacenar los datos en la base de datos.
  
  
 
