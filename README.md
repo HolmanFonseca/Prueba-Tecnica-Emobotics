@@ -1,5 +1,27 @@
 # Prueba-Tecnica-Emobotics
 En este repositorio reponderé las preguntas para la prueba tecnica de la empresa Emobotics.
+### 1.
+
+Pre requisitos:
+-python 
+-Django
+-Navicat(opcional)
+
+-Para correr el proyecto hacer un clon del repositorio y correr en la terminal el siguiente comando dentro de la carpeta prueba:
+
+python manage.py runserver
+
+Con este comando el proyecto estara funcionando con normalidad.
+
+si desea agregar un usuario nuevo:
+
+ingrese en su navegador localhost:8000/usuario/registrar y digite los datos del nuevo usuario. Siga las intrucciones y a continuacion darle guardar.
+
+si desea consultar un usuario:
+
+ingrese en su navegador localhost:8000/consulta/usuario luego digite el username del usuario a consultar y se mostrara en pantalla los datos del usuario registrado.
+
+
 
 ### 2.
 Se desea desarrollar una funcionalidad para una app móvil que permita obtener de los usuarios las respuestas a una secuencia de preguntas predeterminadas. Las preguntas deben hacerse una a la vez y la pregunta siguiente puede depender de la respuesta a la pregunta anterior. Describa brevemente que funciones implementaría en el backend para atender dicha funcionalidad de la app (No es necesario hacer código).
