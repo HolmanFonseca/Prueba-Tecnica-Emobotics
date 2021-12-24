@@ -7,10 +7,10 @@ Created on Thu Dec 23 05:13:16 2021
 
 
 from django.conf.urls import url
-from usuario.views import RegistrarUsuario
 
+from consulta.views import consultar_usuario
 
 urlpatterns=[
-     url(r'^registrar/', RegistrarUsuario.as_view(),name="registrar$"),
-     
+    
+     url(r'^usuario/',consultar_usuario,name="consultar"),
 ]

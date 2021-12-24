@@ -20,4 +20,5 @@ from django.contrib import admin
 urlpatterns=[
      url(r'^admin/', admin.site.urls),
      url(r'^usuario/', include("usuario.urls")),
-     url(r'respuesta/',include("respuesta_exitosa.urls")),]
+     url(r'respuesta/',include("respuesta_exitosa.urls")),
+     url(r'^consulta/', include("consulta.urls")),]

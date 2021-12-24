@@ -17,7 +17,13 @@ class RegistrarUsuario(CreateView):
     ## Redirigir a la página
     success_url=reverse_lazy('respuesta_exitosa')
 
-
-
-
+class ConsultarUsuario(CreateView):
+    ## Crear modelo 
+    def register_user(self,request):
+        r_username= request.GET['username']
+        
+        if User.objects.filter(username=r_username).exists():
+            
+            return reverse_lazy('respuesta_exitosa')
+ 
 
