@@ -1,5 +1,5 @@
 # Prueba-Tecnica-Emobotics
-En este repositorio reposdenre las preguntas para la prueba tecnica de la empresa Emobotics.
+En este repositorio reponderé las preguntas para la prueba tecnica de la empresa Emobotics.
 
 ### 2.
 Se desea desarrollar una funcionalidad para una app móvil que permita obtener de los usuarios las respuestas a una secuencia de preguntas predeterminadas. Las preguntas deben hacerse una a la vez y la pregunta siguiente puede depender de la respuesta a la pregunta anterior. Describa brevemente que funciones implementaría en el backend para atender dicha funcionalidad de la app (No es necesario hacer código).
